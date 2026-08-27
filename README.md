@@ -23,7 +23,7 @@ the values on an I2C LCD1602 without using the Arduino framework.
 - PCF8574 I2C backpack
 
 ## Software Architecture
-
+```
 main.cpp
 ├── dht.cpp
 ├── timer.cpp
@@ -31,7 +31,7 @@ main.cpp
 ├── twi.cpp
 ├── pcf8574.cpp
 └── lcd1602.cpp
-
+```
 ## Communication
 
 ### DHT11
