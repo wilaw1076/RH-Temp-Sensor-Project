@@ -4,7 +4,7 @@ A bare-metal C++ environmental monitoring system built on the ATmega2560.
 The project reads temperature and humidity from a DHT11 sensor and displays
 the values on an I2C LCD1602 without using the Arduino framework.
 
-<img width="1080" height="1440" alt="image" src="https://github.com/user-attachments/assets/634fafa2-a852-4202-b06f-366ae720d584" />
+<img width="540" height="720" alt="image" src="https://github.com/user-attachments/assets/634fafa2-a852-4202-b06f-366ae720d584" />
 
 
 ## Features
