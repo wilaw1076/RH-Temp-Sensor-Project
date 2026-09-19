@@ -43,6 +43,16 @@ The ATmega2560 communicates with the DHT11 using GPIO on PG5.
 Timer1 runs with a /8 prescaler, providing 0.5 us timer resolution for
 measuring DHT11 pulse widths.
 
+Short pulse => 50us low + 26-28 us high = 0 bit
+Long pulse => 50us low + 70 us high = 1 bit
+
+Sends 40 bits separated into 5 bytes:
+Humidity 
+Humidity decimal
+Temperature 
+Temperature decimal
+Checksum
+
 ### I2C LCD
 
 The ATmega2560 communicates with the PCF8574 using its hardware TWI
